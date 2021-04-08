@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Description>Simple static class to get the vndor of a MAC adress. 
+See https://macvendors.com/api</Description>
+    <ReleaseVersion>1.0</ReleaseVersion>
+    <SynchReleaseVersion>false</SynchReleaseVersion>
+    <PackageId>ahbsd.lib.macadress.api_core3.1</PackageId>
+    <PackageVersion>1.0</PackageVersion>
+    <Authors>Heinrich Alexandra Hermann</Authors>
+    <Copyright>Copyright © 2021 Alexandra Hermann – Beratung, Software, Design</Copyright>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Owners>Heinrich Alexandra Hermann</Owners>
+    <PackageReleaseNotes>First Version</PackageReleaseNotes>
+    <Summary>Static class to get vendor of a MAC adress.</Summary>
+    <Title>ahbsd.lib.macadress.api core 3.1</Title>
+    <AssemblyName>ahbsd.lib.macadress.api_core3.1</AssemblyName>
+    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DocumentationFile>bin\Debug\netcoreapp3.1\ahbsd.lib.macadress.api.xml</DocumentationFile>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType></DebugType>
+    <DocumentationFile>bin\Release\netcoreapp3.1\ahbsd.lib.macadress.api.xml</DocumentationFile>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="RestSharp" Version="106.11.7" />
+    <PackageReference Include="ahbsd.lib" Version="1.4.0" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.809.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ahbsd.lib.macadress.api", "ahbsd.lib.macadress.api\ahbsd.lib.macadress.api.csproj", "{A332CBE9-1C88-4713-9F79-897088C98EAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{0DE77FBE-481A-466C-8F95-FC6D10881C15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A332CBE9-1C88-4713-9F79-897088C98EAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A332CBE9-1C88-4713-9F79-897088C98EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A332CBE9-1C88-4713-9F79-897088C98EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A332CBE9-1C88-4713-9F79-897088C98EAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE77FBE-481A-466C-8F95-FC6D10881C15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE77FBE-481A-466C-8F95-FC6D10881C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE77FBE-481A-466C-8F95-FC6D10881C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE77FBE-481A-466C-8F95-FC6D10881C15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DC5C1CA-D416-42F7-9972-BD5B234595C1}
+	EndGlobalSection
+EndGlobal
